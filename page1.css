@@ -1,0 +1,55 @@
+.page1{
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    /* bottom, image */
+    url('img/Layer\ 1.png');
+    background-size: cover;
+    align-self: center;
+}
+header {
+    display: flex;
+    padding: 30px;
+}
+.logo img {
+    height: 44px;
+}
+.logo {
+    height: min-content;
+}
+nav {
+    margin-left: auto;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav li {
+    margin: 20px;
+}
+nav ul a {
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+h1 {
+    width: min-content;
+    border: 3px solid white;
+    padding: 10px;
+    margin: 200px auto 0;
+    font-size: 72px;
+    font-variant: small-caps;
+}
+.page1 p {
+    width: 170px;
+    border-bottom: 3px solid white;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 56px;
+    font-variant: small-caps;
+}

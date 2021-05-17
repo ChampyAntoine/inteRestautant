@@ -1,0 +1,30 @@
+.page5 {
+    background-color: #42363A;
+    height: auto;
+}
+.page5 .container {
+    width: 50%;
+}
+.page5 h2, .page5 p, .page5 span {
+    display: block;
+    text-align: center;
+}
+.page5 span {
+    margin-top: 30px;
+    font-size: 32px;
+    font-variant: normal;
+}
+
+.page5 p, .page5 span {
+    font-family: lato;
+}
+
+.page5 a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.page5 a:last-child {
+    padding: 10px;
+    border: 2px solid white;
+}

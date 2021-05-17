@@ -1,0 +1,23 @@
+.page7 {
+    background-color: #DC5352;
+    height: auto;
+}
+
+.page7 .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page7 h2 {
+    width: min-content;
+    border: 3px solid white;
+    padding: 10px;
+    font-size: 72px;
+    font-variant: small-caps;
+}
+
+.page7 span {
+    text-decoration: underline;
+    font-size: 24px;
+}

@@ -1,0 +1,29 @@
+*{
+    padding: 0;margin: 0; box-sizing: border-box;
+    
+    scroll-behavior: smooth;
+}
+.layout {
+    font-family: Bebas Neue, sans-serif ;
+    height: 100vh;
+    color: white;
+}
+.layout:not(.page1) {
+    padding: 130px 0;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+hr {
+    color: white;
+}
+a {
+    color: white;
+}
+h2{
+    font-size: 62px;
+    font-variant: small-caps;
+    margin-bottom: 32px;
+}

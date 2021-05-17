@@ -1,0 +1,41 @@
+.page3{
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    /* bottom, image */
+    url('img/Layer\ 12.png');
+    background-size: cover;
+    align-self: center;
+}
+
+.page3 .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page3 section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page3 section:last-child img {
+    width: 90%;
+}
+
+
+.page3 section:first-child > div:last-child > div {
+    display: flex;
+    margin: 20px 0;
+}
+.page3 section:first-child div:last-child div p {
+    vertical-align: middle;
+    font-size: 16px;
+}
+.page3 .photo {
+    margin-right: 20px;
+}

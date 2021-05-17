@@ -1,0 +1,22 @@
+.page6 {
+    height: auto;
+}
+
+.page6 .container {
+    display: flex;
+}
+
+.green {
+    background-color: #84993B;
+    padding: 30px;
+    width: 320px;
+}
+.green p {
+    font-family: late;
+}
+
+.map {
+    background-color: rgb(168, 132, 201);
+    width: 100%;
+}
+        

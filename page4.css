@@ -1,0 +1,31 @@
+.page4 {
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    /* bottom, image */
+    url('img/Layer\ 20.png');
+    background-size: cover;
+    align-self: center;
+}
+
+.page4 section > div {
+    margin-bottom: 50px;
+}
+
+.page4 section > div img {
+    width: 32px;
+    height: 32px;
+}
+.entete {
+    display: flex;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 32px;
+}
+p {
+    font-size: 16px;
+}
